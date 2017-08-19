@@ -1,0 +1,17 @@
+{
+  "name": "image-resizer",
+  "version": "1.0.2",
+  "description": "Microservice for online image resize",
+  "repository": "https://git.wsmgroup.ru/web/service-image-resizer",
+  "main": "server.js",
+  "scripts": {},
+  "author": "larrabee",
+  "license": "MIT",
+  "dependencies": {
+    "socketcluster": "5.x.x",
+    "sharp": "0.x.x",
+    "imagemin": "5.3.x",
+    "imagemin-mozjpeg": "6.0.x",
+    "imagemin-pngquant": "5.0.x"
+  }
+}
