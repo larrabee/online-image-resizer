@@ -23,7 +23,7 @@ services:
 ```
 
 ## Configure frontend
-This is basic Nginx config for online resizing with nginx cache.
+This is basic Nginx config (nginx.conf) for online resizing with nginx cache.
 ```
 events {
 }
