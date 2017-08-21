@@ -6,7 +6,7 @@
 3. Enjoy!
 
 ## Build docker image
-1. Clone this repo to PC with `git clone https://github.com/larrabee/resizer.git`
+1. Clone this repo to PC with `git clone https://github.com/larrabee/online-image-resizer.git`
 2. Change parrams in `server.js` (not needed for most cases)
 3. Build docker container: `cd resizer && docker build -t resizer .`
 4. Run it with `docker run -d -p 7075:7075 resizer` or use docker-compose config:
